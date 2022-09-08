@@ -59,7 +59,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 115px);
-  grid-gap: 15px;
+  grid-gap: 8px;
 }
 
 #container img {
