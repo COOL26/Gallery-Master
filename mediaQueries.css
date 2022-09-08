@@ -1,0 +1,17 @@
+@media screen and (min-width: 750px) {
+  body {
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 100%;
+    padding: 3% 5%;
+  }
+  #container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 280px);
+    grid-gap: 15px;
+  }
+  #container .fourth {
+    height: 205%;
+  }
+}
